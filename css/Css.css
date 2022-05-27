@@ -290,6 +290,20 @@ display: inline-flex;
     z-index: 1000 !important;*/
 }
 
+.contact div.a {
+	backdrop-filter: blur(2px);
+    padding: 0px 5px;
+    border-radius: 10px;
+    box-shadow: inset 5px 5px 20px rgb(0 0 0 / 20%), inset -5px -5px 20px rgb(225 225 225 / 10%), 5px 5px 20px rgb(0 0 0 / 30%), -5px -5px 20px rgb(225 225 225 / 5%);
+}
+
+
+.collapse{
+	/*padding-bottom: 30px;
+    border-radius: 100px;
+    box-sh*/adow: inset 5px 5px 20px rgb(0 0 0 / 20%), inset -5px -5px 20px rgb(225 225 225 / 10%), 5px 5px 20px rgb(0 0 0 / 30%), -5px -5px 20px rgb(225 225 225 / 5%);
+}
+
 /*.masthead{padding-top: 0 !important;}*/
 
 .carousel-item {
@@ -311,6 +325,8 @@ display: inline-flex;
 		.contact{
 			position: absolute;
 			top: 100px;
+			    width: 0;
+    overflow: visible;
 		}
 
 		.contact span{
