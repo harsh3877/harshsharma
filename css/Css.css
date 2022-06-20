@@ -172,8 +172,11 @@ body{
 	backdrop-filter: blur(3px);
 }
 
+.zoom{
+	transition:0.5s;
+}
 .zoom:hover{
-transition:0.5s;
+
 	
 transform: scale(1.09);
 }
@@ -604,7 +607,7 @@ a{text-decoration: none !important;}
 
 .cta a{
 	width: 160px;
-<<<<<<< HEAD
+
 }
 
 
