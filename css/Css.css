@@ -388,6 +388,10 @@ display: inline-flex;
 		opacity: 1 !important;
 	}
 
+	.internship-box img{
+
+	box-shadow:  5px 5px 10px rgb(100 100 100 / 70%), 5px 5px 20px rgb(100 100 100 / 30%);
+}
 	.hiddenDescription{
 		margin-left: 2% !important;
 		opacity: 1 !important;
